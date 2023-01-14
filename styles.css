@@ -1,0 +1,117 @@
+
+html{
+    font-size: 1rem;
+    background-color: #5c6b73;
+}
+
+/* TEXT */
+h1, p{
+    text-align: center;
+}
+
+h1{
+    font-size: 3rem;
+    font-family: 'Permanent Marker', sans serif;
+    color: #253237;
+    margin-bottom: 0;
+}
+
+hr{
+    max-width: 50%;
+    border-top: solid 0.2rem #253237;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+p{
+    font-size: 2rem;
+    font-family: 'Quicksand', sans serif;
+    color: #253237;
+}
+
+/* FORM */
+.form-container{
+    display: flex;
+    background-color: #9db4c0;
+    border-radius: 1rem;
+    width: 550px;
+    margin: auto;
+}
+
+.form{
+    height: 550px;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.labels{
+    font-size: 1.4rem;
+    font-family: 'Quicksand', sans serif;
+    color: #253237;
+}
+
+input, textarea{
+    border: none;
+    background-color: #e0fbfc;
+    border-radius: 0.2rem;
+    width: 400px;
+    margin-top: 10px;
+}
+
+input{
+    height: 30px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+textarea{
+    height: 200px;
+    font-size: 1rem;
+}
+
+
+/* BUTTON */
+.submit-btn{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.submit{
+    font-size: 1.5rem;
+    font-family: 'Quicksand', sans serif;
+    background-color: #9db4c0;
+    padding: 0.5rem 3rem;
+    border-radius: 1rem;
+    border: none;
+    transition: 0.3s;
+}
+
+.submit:hover{
+    cursor: pointer;
+    font-size: 1.6rem;
+    background-color: #e0fbfc;
+    border-radius: 1.1rem;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 700px){
+    .form-container{
+        width: 500px;
+    }
+}
+
+@media (max-width: 600px){
+    .form-container{
+        width: 450px;
+    }
+
+    p{
+        font-size: 1.5rem;
+    }
+
+    input, textarea{
+        width: 350px;
+    }
+}
